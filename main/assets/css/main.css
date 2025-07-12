@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-principal: rgba(247, 243, 243, 0.877);
+    --font-principal: "Roboto", sans-serif;
+}
+
+nav{
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height: 100%;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5vw;
+}
+
+.nav-links ul li{
+    font-size: 0.78rem;
+    font-family: var(--font-principal);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    text-shadow: 0 0 0.1rem #00000038;
+}
+
+.container-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+
+.content-header{
+    width: 25%;
+    height: 80%;
+}
+
+.content-header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    height: 100%;
+}
+
+.content-header ul li{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5vw;
+}
