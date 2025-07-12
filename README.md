@@ -8,3 +8,8 @@ html e css introduction
 # teste 1
 
 site base: https://www.apple.com/airpods/
+
+# Day two ( 12/07/25)
+
+# Att 1 e 2
+    dia focado exclusivamente a pagína main
