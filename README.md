@@ -13,3 +13,6 @@ site base: https://www.apple.com/airpods/
 
 # Att 1 e 2
     dia focado exclusivamente a pagína main
+
+# Att 3
+    termino do dia dois
