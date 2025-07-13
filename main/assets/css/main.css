@@ -208,5 +208,135 @@ nav{
 }
 
 .destaques-container{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgba(247, 244, 244, 0.986);
 }
+
+.destaques-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(247, 244, 244, 0.986);
+    height: 25%;
+    width: 80%;
+}
+
+.destaques-titulo h1{
+    font-size: 4rem;
+    font-family: var(--font-principal);
+    cursor: pointer;
+    color: rgb(37, 37, 37);
+    font-weight: 500;
+    text-shadow: 0 0 0.1rem #00000038;
+}
+
+.destaques-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 75%;
+    width: 100%;
+    gap: 3vh;
+}
+
+.destaques-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 90%;
+    width: 14%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.189);
+}
+
+.cards-img{
+    height: 50%;
+    width: 90%;
+}
+
+.cards-img img{
+    height: 95%;
+    width: 95%;
+}
+
+.cards-tittle{
+    width: 100%;
+    height: 10%;
+}
+
+.cards-tittle h2{
+    font-size: 1.5rem;
+    font-family: var(--font-principal);
+    cursor: pointer;
+    color: rgb(37, 37, 37);
+    font-weight: 500;
+    text-shadow: 0 0 0.1rem #00000038;
+}
+
+.cards-description{
+    height: 8%;
+    width: 80%;
+}
+
+.cards-description p{
+    font-size: 0.9rem;
+    font-family: var(--font-principal);
+    cursor: pointer;
+    color: rgb(37, 37, 37);
+    font-weight: 400;
+    text-shadow: 0 0 0.1rem #00000038;
+}
+
+.cards-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13%;
+    width: 100%;
+}
+
+.cards-price h6{
+    font-size: 1rem;
+    font-family: var(--font-principal);
+    cursor: pointer;
+    color: rgb(37, 37, 37);
+    font-weight: 400;
+    text-shadow: 0 0 0.1rem #00000038;
+}
+
+.cards-btn-buy{
+    height: 5%;
+    width: 100%;
+}
+
+.cards-btn-buy button{
+    height: 90%;
+    width: 15%;
+    background-color: rgb(66, 105, 209);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2vh;
+}
+
+.cards-a-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8%;
+}
+
+.cards-a-link a{
+    text-decoration: none;
+    color:  rgb(66, 105, 209);
+    font-family: var(--font-principal);
+}
+
