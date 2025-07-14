@@ -340,3 +340,42 @@ nav{
     font-family: var(--font-principal);
 }
 
+.container-descriptions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(247, 244, 244, 0.986);   
+}
+
+.content-descriptions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 94%;
+    width: 90%;
+    gap: 2vh;
+}
+
+.row-descriptions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+    height: 30%;
+    gap: 2vh;
+}
+
+.column-descriptions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90%;
+    width: 23%;
+    gap: 2vh;
+}
+
