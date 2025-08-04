@@ -342,6 +342,7 @@ nav{
 
 .container-descriptions{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 90vh;
@@ -401,5 +402,46 @@ nav{
     width: 100%;
     font-size: 0.9rem;
     font-family: var(--font-principal);
+}
+
+.container-btn-final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    width: auto;
+}
+
+.container-btn-final a{
+    font-family: var(--font-principal);
+    font-size: 1.4rem;
+}
+
+.container-btn-final a:hover{
+    border-bottom: 2px solid rgb(25, 25, 169);
+}
+
+.container-cards-2{
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 16px;
+    background: #f0f0f0;
+}
+
+
+.content-cards-2{
+    display: flex;
+  gap: 16px;
+}
+
+.cards-r{
+    min-width: 200px;
+  height: 150px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  flex-shrink: 0;
+  padding: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 

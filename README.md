@@ -19,4 +19,13 @@ site base: https://www.apple.com/airpods/
 
 # Day tree (14/07/25 (13/07/25 day off))
 
+production
+
+# day four (15/07/25)
+production
+
+# day five (04/08/25)
+
+
+
 
